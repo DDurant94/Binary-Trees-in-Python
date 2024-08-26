@@ -1,4 +1,23 @@
 About:
+  In this program, I have laid out a binary tree data structure that uses recursive functions to place data within the tree. This program aims 
+  to visualize how a binary tree data structure works at its fundamental level. To achieve this, I have implemented several endpoints to 
+  understand how it works: in-order traversal, pre-order traversal, post-order traversal, and general traversal.
+
+  -In-order traversal starts with the left side of the tree, going all the way down to the lowest child, placing that node first, then its 
+  parent’s right node and its children, if any. After that, it works its way up to the root and repeats down the right side of the tree.
+
+  -Pre-order traversal places the root node first, then adds each node in ascending order.
+
+  -Post-order traversal starts with the smallest node, working its way up, and finally adds the root node to the list.
+
+  -Traversal allows you to see the structure of the tree, with each node printed in relation to its parents and children.
+
+  Binary trees, with their hierarchical structure, are great for many different programs where organization is paramount. Their ability to 
+  traverse from the top down based on value allows for swift retrieval and deletion of elements while simultaneously keeping the structure 
+  balanced.
+  
+  Time Complexity:
+    O(n log n)
 
 Questions:
 
@@ -15,7 +34,7 @@ Questions:
             ┌─────┴─────┐
             30           70
       ┌────┴────┐    ┌────┴────┐
-      40       20   60         80
+      20       40   60         80
 
   Task 1
     Implement the in-order traversal algorithm for the given binary tree.

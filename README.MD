@@ -16,3 +16,4 @@ CodeWars:
 <https://www.codewars.com/users/ddurant94>
 
 About:
+  Exploring binary tree data structures and how they work by using recursion to place nodes in the correct order.
